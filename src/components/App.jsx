@@ -1,5 +1,5 @@
 import React from "react";
-import Heading from "./Heading";
+import Header from "./Header";
 import Footer from "./Footer";
 import Note from "./Note";
 
@@ -7,7 +7,7 @@ import Note from "./Note";
 function App() {
     return (
         <div>
-            <Heading />
+            <Header />
             <Note />
             <Footer />
         </div>

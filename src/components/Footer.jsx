@@ -7,7 +7,7 @@ function Footer() {
 
     return (
         <footer className="footer">
-            <p className="footer p">Copywrite © {date}</p>
+            <p className="p">Copywrite © {date}</p>
         </footer>
     );
 

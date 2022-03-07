@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Heading(){
+function Header(){
 
     return (
 
@@ -14,4 +14,4 @@ function Heading(){
     );
 }
 
-export default Heading;
+export default Header;
