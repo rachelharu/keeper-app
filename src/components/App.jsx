@@ -5,7 +5,7 @@ import Note from "./Note";
 import notes from "../notes";
 
 
-function createNote(entry) {
+function createNotes(entry) {
     return(
         <Note 
         key={entry.id}
@@ -21,7 +21,7 @@ function App() {
     return (
         <div>
             <Header />
-            {notes.map(createNote)}
+            {notes.map(createNotes)}
             <Footer />
         </div>
     );
