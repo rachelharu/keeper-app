@@ -7,21 +7,19 @@ import notes from "../notes";
 
 
 
-
-
 function App() {
     return (
         <div>
-            <Header />
-            {notes.map((entry) => 
+        <Header />
+            {notes.map((entry) => (
         <Note 
         key={entry.id}
         title={entry.title}
         content={entry.content}
         />
-    )}
+    ))}
 
-            <Footer />
+        <Footer />
         </div>
     );
 }
