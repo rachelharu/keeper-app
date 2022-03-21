@@ -5,15 +5,7 @@ import Note from "./Note";
 import notes from "../notes";
 
 
-function createNotes(entry) {
-    return(
-        <Note 
-        key={entry.id}
-        title={entry.title}
-        content={entry.content}
-        />
-    );
-}
+
 
 
 
@@ -21,7 +13,14 @@ function App() {
     return (
         <div>
             <Header />
-            {notes.map(createNotes)}
+            {notes.map((entry) => 
+        <Note 
+        key={entry.id}
+        title={entry.title}
+        content={entry.content}
+        />
+    )}
+
             <Footer />
         </div>
     );
