@@ -11,6 +11,10 @@
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
 
+//Challenge # 2 
+//Render all the notes inside notes.js as a seperate Note
+//component.
+
 
 import React from "react";
 import ReactDOM from "react-dom";
